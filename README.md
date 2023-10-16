@@ -5,5 +5,6 @@ _Why so simple and why static? The goal was to make a minimalistic, mobile-frien
 
 [Link to website ->](https://www.linoart.com) (Opens in the current tab/window)
 
-![image](https://github.com/nikolay-st-d/linoart.com/assets/126271396/1047e49c-19de-4b18-b88b-a4c22b46244d)
+![image](https://github.com/nikolay-st-d/linoart/assets/126271396/a491b7fd-429a-46cb-8c65-e4eac87d893c)
+
 
