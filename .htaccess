@@ -1,0 +1,26 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# This rule will redirect users from their original location, to the same location but using HTTPS.
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+rewritecond %{http_host} ^linoart.com [nc]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+rewriterule ^(.*)$ https://www.linoart.com/$1 [r=301,nc]
+
+# Redirect index files to root
+RewriteCond %{THE_REQUEST} ^.*/index.php 
+RewriteRule ^(.*)index.php$ /$1 [QSD,R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.htm 
+RewriteRule ^(.*)index.htm$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html 
+RewriteRule ^(.*)index.html$ /$1 [R=301,L]
+
+ErrorDocument 404 /404.php
+
+# Permanent URL redirects
+Redirect 301 /profile.php /#profile
+Redirect 301 /activities.php /#activities
+Redirect 301 /contact.php /#contact
