@@ -9,7 +9,7 @@ echo '<div class="container">';
 include("includes/header.php");
 ?>
 <div id="main" class="container">
-	<div class="main">
+	<div class="main-full-height">
 		<div class="main_left">
 			<h2>Linoart Studio - Bulgaria</h2>
 			<p>We are a Bulgarian company specializing in <strong>custom website development</strong>, graphic design,

@@ -7,9 +7,11 @@
 		<h1>We Design!<br>We Code!</h1>
 	</div>
 </div>
+
 <div class="div_nav">
 	<div class="nav_content">
-		<a href="#home" title="Linoart Ltd. - home">home</a> |
+		<a href="/" title="Linoart Ltd. - home">home</a> |
+		<a href="#main" title="Linoart Ltd. - home">main</a> |
 		<a href="#profile" title="Company profile - Linoart Ltd.">company profile</a> |
 		<a href="#activities" title="Company activities - Linoart Ltd.">activities</a> |
 		<a href="#contact" title="Contact Linoart Ltd.">contact</a>
