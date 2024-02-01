@@ -8,12 +8,16 @@
   padding: 0;
 }
 html {
+  font-family: BenguiatGothic, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-wrap: balance;
   scroll-behavior: smooth;
   scroll-padding-top: 10px;
   box-sizing: border-box;
 }
 body {
-  font-family: BenguiatGothic, Verdana, sans-serif;
+  font: inherit;
   background-color: #ffffff;
 }
 p {
@@ -24,33 +28,31 @@ header {
 }
 .container {
   width: 100%;
-  display: -webkit-flex;
-  display: -moz-flex;
   display: flex;
   flex-flow: row wrap;
   background-color: #ffffff;
 }
-h1 {
+h1,
+h2 {
   font-weight: 400;
-  font-size: 28px;
-  color: #707070;
-  margin-top: 30px;
-  margin-bottom: 30px;
+}
+h1 {
+  font-size: 1.6em;
+  color: #b3a295;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+@media (min-width: 900px) {
+  h1 {
+    margin-top: 2.6em;
+  }
 }
 h2 {
   padding-top: 5px;
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 1.4em;
   color: #898989;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-h3 {
-  font-size: 16px;
-  font-weight: 400;
-  color: #b2b2b2;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .div_nav {
   display: inline-block;
@@ -58,6 +60,7 @@ h3 {
   height: auto;
   background-color: #000000;
   color: var(--nav-hover);
+  font-size: clamp(0.7em, 1em, 1.2em);
   text-align: center;
   position: sticky;
   top: 0;
@@ -80,8 +83,6 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  font-weight: 400;
-  font-size: clamp(0.7em, 1.4em, 1.8em);
 }
 @media (min-width: 1200px) {
   .nav_content {
@@ -91,9 +92,7 @@ h3 {
 }
 .main {
   width: 100%;
-  min-height: 95vh;
-  font-size: 22px;
-  font-weight: 400;
+  min-height: 60vh;
   color: var(--main-text);
   display: flex;
   flex-flow: row wrap;
@@ -121,16 +120,14 @@ h3 {
     height: 55vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+    padding: 0;
     padding-top: 10vh;
     position: relative;
   }
 }
 .main-full-height {
   width: 100%;
-  height: 95vh;
-  font-size: 22px;
-  font-weight: 400;
+  min-height: 90vh;
   color: var(--main-text);
   display: flex;
   flex-flow: row wrap;
@@ -152,16 +149,18 @@ h3 {
   color: #99897c;
   text-decoration: underline;
 }
-@media (min-width: 900px) {
+@media (min-width: 660px) {
   .main-full-height {
     width: 1200px;
-    height: 80vh;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
-    padding-top: 15vh;
+    padding: 0;
     position: relative;
+    padding-top: 5vh;
   }
+}
+.main-full-height:nth-child(1) {
+  height: 50vh;
 }
 .main_left {
   width: 100%;
@@ -175,7 +174,7 @@ h3 {
   text-align: center;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 660px) {
   .main_left {
     width: 60%;
     height: 100%;
@@ -189,15 +188,13 @@ h3 {
   }
   .main_right img {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
   }
 }
 .header_container {
   width: 100%;
   height: auto;
-  font-size: 18px;
-  font-weight: 400;
   color: #757575;
   text-align: center;
   display: flex;
@@ -237,8 +234,7 @@ h3 {
 .footer {
   display: inline-block;
   width: 100%;
-  font-weight: 400;
-  font-size: 16px;
+  font-size: 0.7em;
   color: var(--main-text);
   text-decoration: none;
   text-align: center;
@@ -264,4 +260,21 @@ h3 {
     margin-right: auto;
     text-align: right;
   }
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
 }
