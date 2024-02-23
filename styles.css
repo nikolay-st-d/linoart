@@ -1,5 +1,10 @@
 @import url(typography.css);
-@import url(colors.css);
+
+:root {
+  --main-text: #595858;
+  --nav-link: #f9e9e0;
+  --nav-hover: #bba395;
+}
 
 *,
 *::before,
@@ -13,7 +18,7 @@ html {
   font-weight: 400;
   text-wrap: balance;
   scroll-behavior: smooth;
-  scroll-padding-top: 10px;
+  scroll-padding-top: 1em;
   box-sizing: border-box;
 }
 body {
@@ -22,15 +27,6 @@ body {
 }
 p {
   margin-bottom: 1em;
-}
-header {
-  width: 100%;
-}
-.container {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  background-color: #ffffff;
 }
 h1,
 h2 {
@@ -54,13 +50,14 @@ h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+main {
+  padding: 1em;
+}
 .div_nav {
-  display: inline-block;
   width: 100%;
-  height: auto;
   background-color: #000000;
   color: var(--nav-hover);
-  font-size: clamp(0.7em, 1em, 1.2em);
+  padding: 0.2em 0;
   text-align: center;
   position: sticky;
   top: 0;
@@ -81,13 +78,12 @@ h2 {
 }
 .nav_content {
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
 }
 @media (min-width: 1200px) {
   .nav_content {
     width: 1200px;
     text-align: left;
+    margin: 0 auto;
   }
 }
 .main {
@@ -99,7 +95,6 @@ h2 {
   text-align: center;
   border-bottom: 1px solid #cccccc;
   position: relative;
-  padding: 3px;
   padding-top: 2vh;
 }
 .main a:link {
@@ -117,7 +112,7 @@ h2 {
 @media (min-width: 900px) {
   .main {
     width: 1200px;
-    height: 55vh;
+    min-height: 55vh;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -134,7 +129,6 @@ h2 {
   text-align: center;
   border-bottom: 1px solid #cccccc;
   position: relative;
-  padding: 3px;
   padding-top: 2vh;
 }
 .main-full-height a:link {
@@ -159,14 +153,10 @@ h2 {
     padding-top: 5vh;
   }
 }
-.main-full-height:nth-child(1) {
-  height: 50vh;
-}
 .main_left {
   width: 100%;
   display: inline-block;
   text-align: left;
-  padding: 5px;
 }
 .main_right {
   width: 100%;
@@ -199,16 +189,13 @@ h2 {
   text-align: center;
   display: flex;
   flex-flow: row wrap;
-  padding-left: 5vw;
-  padding-right: 5vw;
 }
 @media (min-width: 1200px) {
   .header_container {
     width: 1200px;
     height: 25vh;
     min-height: 220px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 .header_left {
@@ -232,14 +219,12 @@ h2 {
   }
 }
 .footer {
-  display: inline-block;
   width: 100%;
   font-size: 0.7em;
   color: var(--main-text);
   text-decoration: none;
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 2vh;
+  margin: 2em auto 1em auto;
 }
 .footer a:link {
   color: var(--main-text);
@@ -256,25 +241,6 @@ h2 {
 @media (min-width: 1200px) {
   .footer {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: right;
   }
-}
-
-.reveal {
-  position: relative;
-  opacity: 0;
-}
-.reveal.active {
-  opacity: 1;
-}
-.active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
-}
-.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
-.active.fade-right {
-  animation: fade-right 1s ease-in;
 }
