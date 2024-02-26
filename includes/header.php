@@ -4,14 +4,15 @@
 				alt="Linoart visual creative studio" title="Linoart Ltd."></a>
 	</div>
 	<div class="header_right">
-		<h1>We Design! We Code!</h1>
+		<h1>We Design!<br>We Code!</h1>
 	</div>
 </header>
-<nav class="div_nav">
+
+<nav class="nav_container">
 	<div class="nav_content">
-		<a href="/" title="Linoart Ltd. - home">home</a> |
-		<a href="#profile" title="Company profile - Linoart Ltd.">profile</a> |
-		<a href="#activities" title="Company activities - Linoart Ltd.">activities</a> |
+		<a href="#" title="Linoart Ltd. - home">home</a>
+		<a href="#profile" title="Company profile - Linoart Ltd.">profile</a>
+		<a href="#activities" title="Company activities - Linoart Ltd.">activities</a>
 		<a href="#contact" title="Contact Linoart Ltd.">contact</a>
 	</div>
 </nav>

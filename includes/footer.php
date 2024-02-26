@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer>
   &copy;
   <?php echo DATE("Y"); ?> <a href="https://www.linoart.com" title="<?php echo $title; ?>">Linoart - Photos, Design
     and Coding</a>

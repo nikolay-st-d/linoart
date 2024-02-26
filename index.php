@@ -20,6 +20,7 @@ include("includes/header.php");
 				title="Web development and graphic design studio based in Bulgaria">
 		</div>
 	</section>
+
 	<section id="profile" class="main-full-height">
 		<div class="main_left">
 			<h2>Company Profile</h2>
@@ -34,6 +35,7 @@ include("includes/header.php");
 				title="Linoart - Bulgaria, company profile">
 		</div>
 	</section>
+
 	<section id="activities" class="main-full-height">
 		<div class="main_left">
 			<h2>Company Activities</h2>
@@ -49,6 +51,7 @@ include("includes/header.php");
 				title="Activities of the Linoart company">
 		</div>
 	</section>
+
 	<section id="contact" class="main-full-height">
 		<div class="main_left">
 			<h2>Contact Us</h2>
