@@ -3,14 +3,14 @@ $title = 'Web develipment and graphic design studio';
 $description = 'Linoart web site development and graphic design studio, based in Bulgaria. We always do it the better way!';
 $keywords = 'linoart, company, bulgaria, coding, development, website, design';
 
-include("includes/head.php");
+include ("includes/head.php");
 echo '<body>';
-include("includes/header.php");
+include ("includes/header.php");
 ?>
 <main>
 	<section id="main" class="main">
 		<div class="main_left">
-			<h2>Linoart Studio - Bulgaria</h2>
+			<h2>Linoart Studio</h2>
 			<p>We are a Bulgarian company specializing in <strong>custom website development</strong>, graphic design,
 				and commercial photography. Additionally, we engage in projects related to online sales, web promotion
 				and SEO services.</p>
@@ -38,13 +38,16 @@ include("includes/header.php");
 
 	<section id="activities" class="main-full-height">
 		<div class="main_left">
-			<h2>Company Activities</h2>
-			<p>At Linoart studio, our core expertise lies in the dynamic world of CUSTOM web projects. With a sharp
-				specialization in crafting bespoke websites, our mission is to bring your unique vision to life. Our
-				focus extends to both corporate entities and the thriving hospitality industry, with a special knack for
-				creating tailored online solutions. Our holistic approach covers the entire spectrum of web development,
-				ranging from captivating photography and imaginative graphic design to meticulous programming and
-				result-driven SEO strategies.</p>
+			<h2>Activities</h2>
+			<h3>Technology stack</h3>
+			<p>Python/Jango, JavaScript, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
+			<h3>Latest Projects</h3>
+			<p><a target="_blank" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Sefo sculpture <i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
+				<a target="_blank" href="https://www.hotelpinkovi.com/index-en.php" title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi <i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
+				<a target="_blank" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas <i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"
@@ -55,8 +58,7 @@ include("includes/header.php");
 	<section id="contact" class="main-full-height">
 		<div class="main_left">
 			<h2>Contact Us</h2>
-			<p><i class="fa-regular fa-envelope"></i> <img src="images/m.png" width="210" height="25"
-					alt="graphic design and advertising photography studio"></p>
+			<p><i class="fa-regular fa-envelope"></i> studio<i class="fa-regular fa-at"></i>linoart.com</p>
 			<p><i class="fa-solid fa-phone"></i> +359 87 871 35 00</p>
 			<p><i class="fa-brands fa-whatsapp"></i> +359 89 856 25 98</p>
 		</div>
@@ -66,7 +68,7 @@ include("includes/header.php");
 		</div>
 	</section>
 </main>
-<?php include("includes/footer.php"); ?>
+<?php include ("includes/footer.php"); ?>
 </body>
 
 </html>

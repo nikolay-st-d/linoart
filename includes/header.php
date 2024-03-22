@@ -1,18 +1,24 @@
 <header id="home" class="header_container">
 	<div class="header_left">
-		<a href="/" title="Linoart Ltd. - Bulgarian company"><img src="images/logo.gif" width="130" height="150"
+		<a href="./" title="Linoart Ltd. - Bulgarian company"><img src="images/logo.gif" width="130" height="150"
 				alt="Linoart visual creative studio" title="Linoart Ltd."></a>
 	</div>
 	<div class="header_right">
-		<h1>We Design!<br>We Code!</h1>
+		<h1>We Create!</h1>
 	</div>
 </header>
 
-<nav class="nav_container">
+<nav>
 	<div class="nav_content">
-		<a href="#" title="Linoart Ltd. - home">home</a>
-		<a href="#profile" title="Company profile - Linoart Ltd.">profile</a>
-		<a href="#activities" title="Company activities - Linoart Ltd.">activities</a>
-		<a href="#contact" title="Contact Linoart Ltd.">contact</a>
+		<ul>
+			<li><a href="./#" title="Linoart Ltd. - home">home</a></li>
+			<li><a href="./#profile" title="Company profile - Linoart Ltd.">about</a></li>
+			<li><a href="./#activities" title="Company activities - Linoart Ltd.">activities</a></li>
+			<li><a href="./#contact" title="Contact Linoart Ltd.">contact</a></li>
+		</ul>
+		<ul>
+			<li><a href="./" title="Linoart Ltd. - home">EN</a></li>
+			<li><a href="./index-bg.php" title="Линоарт студио">BG</a></li>
+		</ul>
 	</div>
 </nav>

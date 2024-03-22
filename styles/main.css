@@ -23,12 +23,12 @@ main {
 }
 main a:link,
 main a:visited {
-  color: var(--main-text);
+  color: #43a0a5;
   text-decoration: none;
 }
 main a:hover {
-  color: #99897c;
-  text-decoration: underline;
+  color: #bda795;
+  text-decoration: none;
 }
 @media (min-width: 1200px) {
   main {
