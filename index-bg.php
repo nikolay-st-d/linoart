@@ -38,12 +38,12 @@ include ("includes/header-bg.php");
     <section id="activities" class="main-full-height">
         <div class="main_left">
             <h2>Дейности</h2>
-            <h3>Технологичен стак</h3>
-            <p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
             <h3>Последни проекти</h3>
             <p><a target="_blank" href="https://www.sefobg.com" title="Сайт на склуптора Сефо">Sefo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>, 
             <a target="_blank" href="https://www.hotelpinkovi.com" title="Сайт на хотел Пинкови - Несебър">хотел Пинкови <i class="fa-solid fa-arrow-up-right-from-square"></i></a>,
             <a target="_blank" href="https://www.svetinikola.jeravna.com" title="Сайт на къща за гости Свети Никола - Жеравна">Свети Никола <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <h3>Технологичен стак</h3>
+            <p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
         </div>
         <div class="main_right">
             <img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"

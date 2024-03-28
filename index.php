@@ -39,8 +39,7 @@ include ("includes/header.php");
 	<section id="activities" class="main-full-height">
 		<div class="main_left">
 			<h2>Activities</h2>
-			<h3>Technology stack</h3>
-			<p>Python/Jango, JavaScript, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
+			
 			<h3>Latest Projects</h3>
 			<p><a target="_blank" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Sefo sculpture <i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
@@ -48,6 +47,8 @@ include ("includes/header.php");
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
 				<a target="_blank" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas <i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+			<h3>Tech Stack</h3>
+			<p>Python/Jango, JavaScript, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"
