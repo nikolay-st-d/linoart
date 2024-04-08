@@ -1,8 +1,8 @@
 <?php
-$title = 'Web develipment and graphic design studio';
+$title = 'Web development and graphic design studio';
 $description = 'Linoart web site development and graphic design studio, based in Bulgaria. We always do it the better way!';
 $keywords = 'linoart, company, bulgaria, coding, development, website, design';
-
+$lang = 'en';
 include ("includes/head.php");
 echo '<body>';
 include ("includes/header.php");

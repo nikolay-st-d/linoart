@@ -1,14 +1,8 @@
-<?php
-$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-?>
-
+<?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="<?php echo $lang; ?>">
 <head>
-    <title>
-        <?php echo $title; ?>
-    </title>
+    <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +11,6 @@ $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     <meta name="GOOGLEBOT" content="index, follow">
     <meta name="google-site-verification" content="KgfAL9DcluKeWDwEc_65_rPc7ONYsE8g98YR041YJ7U">
     <link rel="shortcut icon" href="favicon.png">
-
     <?php
     echo '<meta property="og:type" content="website">';
     echo '<meta property="og:title" content="' . $title . '">';
