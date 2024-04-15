@@ -39,9 +39,20 @@ include ("includes/header-bg.php");
         <div class="main_left">
             <h2>Дейности</h2>
             <h3>Последни проекти</h3>
-            <p><a target="_blank" href="https://www.sefobg.com" title="Сайт на склуптора Сефо">Sefo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>, 
-            <a target="_blank" href="https://www.hotelpinkovi.com" title="Сайт на хотел Пинкови - Несебър">хотел Пинкови <i class="fa-solid fa-arrow-up-right-from-square"></i></a>,
-            <a target="_blank" href="https://www.svetinikola.jeravna.com" title="Сайт на къща за гости Свети Никола - Жеравна">Свети Никола <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+            <p class="projects">
+				<a target="_blank" rel="nofollow" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Сефо<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.hotelpinkovi.com" title="Website of hotel Pinkovi - Nessebar">Хотел Пинкови<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a target="_blank" rel="nofollow" href="https://www.gmmetaldetectors.com" title="Golden Mask company website">Golden Mask<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a target="_blank" href="https://www.goldenmaskdetectors.com" title="Online shop of Golden Mask metal detectors">GMD<i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">Св. Никола<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.jeravna.com" title="Website of Zheravna village">Жеравна<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+			</p>
             <h3>Технологичен стак</h3>
             <p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
         </div>

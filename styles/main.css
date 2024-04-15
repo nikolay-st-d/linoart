@@ -77,3 +77,17 @@ section#main {
     align-self: flex-end;
   }
 }
+.projects {
+  font-size: 0.9em;
+}
+.projects i {
+  margin-left: 0.4em;
+  font-size: 0.8em;
+}
+.projects a {
+  padding: 0.2em 0.4em;
+  margin: 0.2em 0;
+  display: inline-block;
+  border: 2px solid #e5f0f0;
+  border-radius: 0.5em;
+}

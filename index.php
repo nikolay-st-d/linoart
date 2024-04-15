@@ -41,14 +41,22 @@ include ("includes/header.php");
 			<h2>Activities</h2>
 			
 			<h3>Latest Projects</h3>
-			<p><a target="_blank" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Sefo sculpture <i
-						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
-				<a target="_blank" href="https://www.hotelpinkovi.com/index-en.php" title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi <i
-						class="fa-solid fa-arrow-up-right-from-square"></i></a>,
-				<a target="_blank" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas <i
-						class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+			<p class="projects">
+				<a target="_blank" rel="nofollow" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Sefo<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.hotelpinkovi.com" title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" href="https://www.goldenmaskdetectors.com" title="Online shop of Golden Mask metal detectors">GMD<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.gmmetaldetectors.com" title="Golden Mask company website">Golden Mask<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				<a target="_blank" rel="nofollow" href="https://www.jeravna.com" title="Website of Zheravna village">Zheravna<i
+						class="fa-solid fa-arrow-up-right-from-square"></i></a>
+			</p>
 			<h3>Tech Stack</h3>
-			<p>Python/Jango, JavaScript, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
+			<p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"
