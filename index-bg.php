@@ -54,7 +54,7 @@ include ("includes/header-bg.php");
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
 			</p>
             <h3>Технологичен стак</h3>
-            <p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
+            <p>Python/Django, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
         </div>
         <div class="main_right">
             <img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"

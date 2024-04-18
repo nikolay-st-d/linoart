@@ -27,8 +27,8 @@ include ("includes/header.php");
 			<p>Linoart Ltd. was founded in 2005 in the city of Sliven, located in South-East Bulgaria, initially as a
 				graphic design and commercial photography studio. The company extended its offerings to include web
 				design services in 2007.</p>
-			<p>We are a reputable company, widely recognized in the country and abroad for the high quality of services
-				we provide.</p>
+			<p>We collaborate with both domestic and international clients. Our focus in recent years is on programming
+				mainly, specifically emphasizing web technologies.</p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_2.jpg" width="272" height="200" alt="Linoart Ltd. - company profile"
@@ -39,24 +39,31 @@ include ("includes/header.php");
 	<section id="activities" class="main-full-height">
 		<div class="main_left">
 			<h2>Activities</h2>
-			
+
 			<h3>Latest Projects</h3>
 			<p class="projects">
-				<a target="_blank" rel="nofollow" href="https://www.sefobg.com" title="Website of Seyfettin Shekerov - Sefo">Sefo<i
+				<a target="_blank" rel="nofollow" href="https://www.sefobg.com"
+					title="Website of Seyfettin Shekerov - Sefo">Sefo<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.hotelpinkovi.com" title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi<i
+				<a target="_blank" rel="nofollow" href="https://www.hotelpinkovi.com"
+					title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" href="https://www.goldenmaskdetectors.com" title="Online shop of Golden Mask metal detectors">GMD<i
+				<a target="_blank" href="https://www.goldenmaskdetectors.com"
+					title="Online shop of Golden Mask metal detectors">GMD<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.gmmetaldetectors.com" title="Golden Mask company website">Golden Mask<i
+				<a target="_blank" rel="nofollow" href="https://www.gmmetaldetectors.com"
+					title="Golden Mask company website">Golden Mask<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.svetinikola.jeravna.com" title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas<i
+				<a target="_blank" rel="nofollow" href="https://www.svetinikola.jeravna.com"
+					title="Website of Guest house St. Nicolas - Zheravna">St. Nicolas<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.jeravna.com" title="Website of Zheravna village">Zheravna<i
+				<a target="_blank" rel="nofollow" href="https://www.jeravna.com"
+					title="Website of Zheravna village">Zheravna<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
 			</p>
 			<h3>Tech Stack</h3>
-			<p>Python/Jango, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat, CaptureOne</p>
+			<p>Python/Django, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat,
+				CaptureOne</p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"
