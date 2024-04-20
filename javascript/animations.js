@@ -5,12 +5,10 @@ const observer = new IntersectionObserver(
         elementEntries.forEach((elementEntry) => {
             if (elementEntry.isIntersecting) {
                 elementEntry.target.classList.add('scroll-animation');
-            } else {
-                elementEntry.target.classList.remove('scroll-animation');
             }
         });
     },
-    { threshold: 0.3 }
+    { threshold: 0.4 }
 );
 for (let i = 0; i < the_animation.length; i++) {
     const elements = the_animation[i];
@@ -25,5 +23,5 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         headerElement.style.transition = 'all 0.3s ease';
         headerElement.style.transform = 'translateY(0)';
-    }, '2000');
+    }, '1200');
 });
