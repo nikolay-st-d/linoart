@@ -20,16 +20,10 @@ for (let i = 0; i < the_animation.length; i++) {
 // logo animation
 const headerElement = document.querySelector('.header_container');
 const mainElement = document.getElementById('#main');
-
 headerElement.style.transform = 'translateY(-150px)';
-
 window.addEventListener('load', () => {
     setTimeout(() => {
-        setElement(headerElement);
-    }, '1000');
+        headerElement.style.transition = 'all 0.3s ease';
+        headerElement.style.transform = 'translateY(0)';
+    }, '2000');
 });
-
-function setElement(element) {
-    element.style.transition = 'all 0.3s ease-in';
-    element.style.transform = 'translateY(0)';
-}
