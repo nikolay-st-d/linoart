@@ -21,7 +21,7 @@ include ("includes/header-bg.php");
         </div>
     </section>
 
-    <section id="profile" class="main-full-height">
+    <section id="profile" class="animation-left">
         <div class="main_left">
             <h2>Фирмен профил</h2>
             <p>Линоарт ЕООД е основана през 2005 г. със седалище в град Сливен, като студио за графичен дизайн и рекламна фотография. 
@@ -35,7 +35,7 @@ include ("includes/header-bg.php");
         </div>
     </section>
 
-    <section id="activities" class="main-full-height">
+    <section id="activities" class="animation-left">
         <div class="main_left">
             <h2>Дейности</h2>
             <h3>Последни проекти</h3>
@@ -62,7 +62,7 @@ include ("includes/header-bg.php");
         </div>
     </section>
 
-    <section id="contact" class="main-full-height">
+    <section id="contact" class="animation-left">
         <div class="main_left">
             <h2>Контакти</h2>
             <p><i class="fa-regular fa-envelope"></i> studio<i class="fa-regular fa-at"></i>linoart.com</p>
@@ -76,6 +76,7 @@ include ("includes/header-bg.php");
     </section>
 </main>
 <?php include ("includes/footer-bg.php"); ?>
+<script type="text/javascript" src="javascript/animations.js"></script>
 </body>
 
 </html>

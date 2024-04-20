@@ -1,0 +1,21 @@
+.animation-left {
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: all 0.6s ease-out;
+    transition-delay: 0.3s;
+}
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+}
+@media (min-width: 900px) {
+    .animation-left {
+        transform: translateX(-400px);
+        transition: all 0.6s ease-out;
+        transition-delay: 0.3s;
+    }
+    .scroll-animation {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }

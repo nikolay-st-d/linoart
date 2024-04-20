@@ -21,7 +21,7 @@ include ("includes/header.php");
 		</div>
 	</section>
 
-	<section id="profile" class="main-full-height">
+	<section id="profile" class="animation-left">
 		<div class="main_left">
 			<h2>Company Profile</h2>
 			<p>Linoart Ltd. was founded in 2005 in the city of Sliven, located in South-East Bulgaria, initially as a
@@ -36,7 +36,7 @@ include ("includes/header.php");
 		</div>
 	</section>
 
-	<section id="activities" class="main-full-height">
+	<section id="activities" class="animation-left">
 		<div class="main_left">
 			<h2>Activities</h2>
 
@@ -71,7 +71,7 @@ include ("includes/header.php");
 		</div>
 	</section>
 
-	<section id="contact" class="main-full-height">
+	<section id="contact" class="animation-left">
 		<div class="main_left">
 			<h2>Contact Us</h2>
 			<p><i class="fa-regular fa-envelope"></i> studio<i class="fa-regular fa-at"></i>linoart.com</p>
@@ -85,6 +85,7 @@ include ("includes/header.php");
 	</section>
 </main>
 <?php include ("includes/footer.php"); ?>
+<script type="text/javascript" src="javascript/animations.js"></script>
 </body>
 
 </html>
