@@ -1,7 +1,6 @@
 // content animations
-const the_animation = document.querySelectorAll('.animation-left');
-const observer = new IntersectionObserver(
-    (elementEntries) => {
+const animatedElements = document.querySelectorAll('.animation-left');
+const observer = new IntersectionObserver(elementEntries => {
         elementEntries.forEach((elementEntry) => {
             if (elementEntry.isIntersecting) {
                 elementEntry.target.classList.add('scroll-animation');
@@ -10,9 +9,9 @@ const observer = new IntersectionObserver(
     },
     { threshold: 0.4 }
 );
-for (let i = 0; i < the_animation.length; i++) {
-    const elements = the_animation[i];
-    observer.observe(elements);
+for (let i = 0; i < animatedElements.length; i++) {
+    const element = animatedElements[i];
+    observer.observe(element);
 }
 
 // logo animation
@@ -23,5 +22,5 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         headerElement.style.transition = 'all 0.3s ease';
         headerElement.style.transform = 'translateY(0)';
-    }, '1200');
+    }, '1000');
 });
