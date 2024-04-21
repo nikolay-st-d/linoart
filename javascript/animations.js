@@ -16,7 +16,6 @@ for (let i = 0; i < animatedElements.length; i++) {
 
 // logo animation
 const headerElement = document.querySelector('.header_container');
-const mainElement = document.getElementById('#main');
 headerElement.style.transform = 'translateY(-150px)';
 window.addEventListener('load', () => {
     setTimeout(() => {

@@ -66,8 +66,8 @@ include ("includes/header-bg.php");
         <div class="main_left">
             <h2>Контакти</h2>
             <p><i class="fa-regular fa-envelope"></i> studio<i class="fa-regular fa-at"></i>linoart.com</p>
-            <p><i class="fa-solid fa-phone"></i> +359 87 871 35 00</p>
-            <p><i class="fa-brands fa-whatsapp"></i> +359 89 856 25 98</p>
+            <p><i class="fa-solid fa-phone"></i> <a target="_blank" href="tel:+359878713500">+359 87 871 35 00</a></p>
+			<p><i class="fa-brands fa-whatsapp"></i> <a target="_blank" href="https://wa.me/359898562598">+359 89 856 25 98</a></p>
         </div>
         <div class="main_right">
             <img src="images/top_4.jpg" width="250" height="170" alt="Contact the Linoart Ltd. stuff"
