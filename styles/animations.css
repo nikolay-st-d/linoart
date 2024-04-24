@@ -1,3 +1,13 @@
+.header_animation_out {
+    transform: translateY(-150px);
+    opacity: 0;
+}
+.header_animation_in {
+    transition: all 0.5s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .animation-left {
     opacity: 0;
     transform: translateX(-150px);

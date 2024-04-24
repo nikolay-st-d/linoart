@@ -1,4 +1,4 @@
-<header id="home" class="header_container">
+<header id="home" class="header_container header_animation_out">
 	<div class="header_left">
 		<a href="./" title="Linoart Ltd. - Bulgarian company"><img src="images/logo.gif" width="130" height="150"
 				alt="Linoart visual creative studio" title="Linoart Ltd."></a>
