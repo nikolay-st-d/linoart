@@ -23,7 +23,6 @@ window.addEventListener('load', () => {
 });
 window.addEventListener('scroll', () => {
     const headerTopOffset = headerElement.getBoundingClientRect().top;
-    console.log(headerTopOffset);
     if (headerTopOffset < -150) {
         headerElement.classList.remove('header_animation_in');
     } 
