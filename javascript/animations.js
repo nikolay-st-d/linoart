@@ -1,4 +1,4 @@
-// content animations
+// content sections animation
 const animatedElements = document.querySelectorAll('.animation-left');
 const observer = new IntersectionObserver(
     (elementEntries) => {
