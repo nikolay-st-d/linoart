@@ -1,11 +1,12 @@
 .header_animation_out {
     transform: translateY(-150px);
     opacity: 0;
+    transition: all 0.5s ease;
 }
 .header_animation_in {
-    transition: all 0.5s ease;
     transform: translateY(0);
     opacity: 1;
+    transition: all 0.5s ease;
 }
 
 .animation-left {

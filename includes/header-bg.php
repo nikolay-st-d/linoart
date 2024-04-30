@@ -1,10 +1,12 @@
-<header id="home" class="header_container header_animation_out">
-	<div class="header_left">
-		<a href="./" title="Студио Линоарт"><img src="images/logo.gif" width="130" height="150"
-				alt="Студио за уеб-програмиране и графичен дизайн Линоарт" title="Линоарт ЕООД"></a>
-	</div>
-	<div class="header_right">
-		<h1>Създаваме!</h1>
+<header id="home">
+	<div class="header_container header_animation_out">
+		<div class="header_left">
+			<a href="./" title="Студио Линоарт"><img src="images/logo.gif" width="130" height="150"
+					alt="Студио за уеб-програмиране и графичен дизайн Линоарт" title="Линоарт ЕООД"></a>
+		</div>
+		<div class="header_right">
+			<h1>Създаваме!</h1>
+		</div>
 	</div>
 </header>
 

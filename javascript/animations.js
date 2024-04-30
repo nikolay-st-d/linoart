@@ -19,7 +19,7 @@ const headerElement = document.querySelector('.header_container');
 window.addEventListener('load', () => {
     setTimeout(() => {
         headerElement.classList.add('header_animation_in');
-    }, '1000');
+    }, '500');
 });
 window.addEventListener('scroll', () => {
     const headerTopOffset = headerElement.getBoundingClientRect().top;
