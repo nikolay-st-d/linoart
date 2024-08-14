@@ -62,8 +62,7 @@ include ("includes/header.php");
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
 			</p>
 			<h3>Tech Stack</h3>
-			<p>Python/Django, JavaScript/React, PHP, CSS, HTML, Git, Photoshop, Illustrator, InDesign, Acrobat,
-				CaptureOne</p>
+			<p>Python/Django, JavaScript/React, PHP/MySQL, CSS, HTML, Git, Photoshop, Illustrator, InDesign</p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_3.jpg" width="250" height="203" alt="Linoart Ltd. activities"
