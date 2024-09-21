@@ -2,9 +2,10 @@
 $title = 'Студио за графичен дизайн и уеб програмиране';
 $description = 'В студио Линоарт ние изработваме уникални уеб-сайтове с най-съвременни технологии и няколко програмни езика. Предлагаме също графичен дизайн и рекламна фотография';
 $lang = 'bg';
-include ("includes/head.php");
+$canonical_url = 'https://www.linoart.com/index-bg.php';
+include "includes/head.php";
 echo '<body>';
-include ("includes/header-bg.php");
+include "includes/header-bg.php";
 ?>
 <main>
     <section id="main" class="main">
