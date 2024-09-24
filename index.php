@@ -45,8 +45,8 @@ include ("includes/header.php");
 				<a target="_blank" rel="nofollow" href="https://www.sefobg.com"
 					title="Website of Seyfettin Shekerov - Sefo">Sefo<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
-				<a target="_blank" rel="nofollow" href="https://www.hotelpinkovi.com"
-					title="Website of hotel Pinkovi - Nessebar">Hotel Pinkovi<i
+				<a target="_blank" rel="nofollow" href="https://www.han.jeravna.com/index-en.php"
+					title="Website of Han Zheravna">Han Zheravna<i
 						class="fa-solid fa-arrow-up-right-from-square"></i></a>
 				<a target="_blank" href="https://www.goldenmaskdetectors.com"
 					title="Online shop of Golden Mask metal detectors">GMD<i

@@ -1,11 +1,12 @@
 <?php
-$title = 'ERROR 404';
-$description = 'Error 404- page not found';
+$title = 'Error 404- Page Not Found';
+$description = 'Error 404 - page not found. The page you are trying to reach does not exist on the server.';
 $keywords = 'error, notfound';
+$lang = 'en';
 
-include ("includes/head.php");
+include "includes/head.php";
 echo '<body>';
-include ("includes/header.php");
+include "includes/header.php";
 ?>
 
 <main>
@@ -22,7 +23,8 @@ include ("includes/header.php");
 	</section>
 </main>
 
-<?php include ("includes/footer.php"); ?>
+<?php include "includes/footer.php"; ?>
+<script type="text/javascript" src="javascript/animations.js"></script>
 </body>
 
 </html>
