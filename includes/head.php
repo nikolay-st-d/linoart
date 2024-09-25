@@ -1,6 +1,7 @@
 <?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
+
 <head>
     <title><?php echo $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,7 +17,7 @@
     if (isset($canonical_url) and $canonical_url != '') {
         echo "<link rel='canonical' href='{$canonical_url}' />";
     }
-    
+
     echo '<meta property="og:type" content="website">';
     echo "<meta property='og:title' content='{$title}'>";
     echo "<meta property='og:description' content='{$description}'>";
@@ -27,6 +28,7 @@
     echo '<meta property="og:site_name" content="Linoart Ltd.">';
 
     include './includes/vis_log.php';
+
     ?>
 
 </head>

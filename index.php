@@ -3,9 +3,10 @@ $title = 'Web development and graphic design studio';
 $description = 'Linoart web site development and graphic design studio, based in Bulgaria. We always do it the better way!';
 $keywords = 'linoart, company, bulgaria, coding, development, website, design';
 $lang = 'en';
-include ("includes/head.php");
+include "includes/head.php";
 echo '<body>';
-include ("includes/header.php");
+include "includes/header.php";
+
 ?>
 <main>
 	<section id="main" class="main">
@@ -73,9 +74,10 @@ include ("includes/header.php");
 	<section id="contact" class="animation-left">
 		<div class="main_left">
 			<h2>Contact Us</h2>
-			<p><i class="fa-regular fa-envelope"></i> studio<i class="fa-regular fa-at"></i>linoart.com</p>
+			<p><i class="fa-regular fa-envelope"></i> <?php echo protectEmail('studio@linoart.com'); ?></p>
 			<p><i class="fa-solid fa-phone"></i> <a target="_blank" href="tel:+359878713500">+359 87 871 35 00</a></p>
-			<p><i class="fa-brands fa-whatsapp"></i> <a target="_blank" href="https://wa.me/359898562598">+359 89 856 25 98</a></p>
+			<p><i class="fa-brands fa-whatsapp"></i> <a target="_blank" href="https://wa.me/359898562598">+359 89 856 25
+					98</a></p>
 		</div>
 		<div class="main_right">
 			<img src="images/top_4.jpg" width="250" height="170" alt="Contact the Linoart Ltd. stuff"
@@ -83,7 +85,7 @@ include ("includes/header.php");
 		</div>
 	</section>
 </main>
-<?php include ("includes/footer.php"); ?>
+<?php include "includes/footer.php"; ?>
 <script type="text/javascript" src="javascript/animations.js"></script>
 </body>
 

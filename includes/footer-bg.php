@@ -10,5 +10,3 @@
     gtag('js', new Date());
     gtag('config', 'G-2J78SGN6S7');
   </script>
-
-<?php include 'vis_log.php'; ?>
