@@ -21,3 +21,25 @@ footer a:hover {
     text-align: right;
   }
 }
+.to-top-btn {
+  display: block;
+  padding: 0.4em 0.5em;
+  color: darkslategrey;
+  background-color: #d6d6d6;
+  border-radius: 0.6em;
+  width: fit-content;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+.to-top-btn:hover {
+  background-color: #ece1cb;
+  color: rgb(78, 131, 118);
+  transition: 0.3s ease;
+}
+.to-top-btn-appear {
+  opacity: 0.8;
+}
