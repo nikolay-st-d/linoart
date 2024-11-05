@@ -29,6 +29,41 @@
 
     include './includes/vis_log.php';
 
+    function protectEmail($email)
+    {
+        /**
+         * Protects an email from being crawled by bots.
+         * Returns a protected string representation of the email.
+         * If the email is not valid, returns a warning.
+         * 
+         * Requires min. FontAwesome 4.2 to work properly!
+         * https://fontawesome.com/
+         * 
+         * PHP version 8.2
+         * @category   Useful PHP functions
+         * @author     Original Author <contact@ndimitrov.com>
+         * @copyright  2024 Nikolay Dimitrov, Linoart Ltd.
+         * @link       https://www.linoart.com
+         */
+        $email = strtolower($email);
+        $re = '/([a-z0-9_\.-]+)(@)([\da-z\-]+)(\.)([a-z\.]{2,6})/';
+        preg_match($re, $email, $matches);
+
+        if ($matches) {
+            $result = [];
+            foreach ($matches as $match) {
+                $result[] = $match;
+            }
+            $name = "<span>{$result[1]}</span>";
+            $at = "<i class='fa-regular fa-at'></i>";
+            $domain = "<span>{$result[3]}</span>";
+            $dot = "<span>.</span>";
+            $extension = "<span>{$result[5]}</span>";
+            return $name . $at . $domain . $dot . $extension;
+        }
+        return "Warning! Invalid Email Format!";
+    }
+
     ?>
 
 </head>

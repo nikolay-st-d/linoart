@@ -18,9 +18,13 @@ RewriteRule ^(.*)index.htm$ /$1 [R=301,L]
 RewriteCond %{THE_REQUEST} ^.*/index.html 
 RewriteRule ^(.*)index.html$ /$1 [R=301,L]
 
-ErrorDocument 404 /404.php
+ErrorDocument 404 https://www.linoart.com/404.php
 
 # Permanent URL redirects
 Redirect 301 /profile.php /#profile
 Redirect 301 /activities.php /#activities
 Redirect 301 /contact.php /#contact
+RewriteCond %{HTTP_HOST} ^linoart\.jeravna\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.linoart\.jeravna\.com$
+RewriteRule ^/?$ "https\:\/\/www\.linoart\.com\/" [R=301,L]
+
